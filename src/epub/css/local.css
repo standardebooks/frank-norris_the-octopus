@@ -30,6 +30,10 @@ footer{
 	font-variant: small-caps;
 }
 
+section[epub|type~="preface"]{
+	margin-top: 20vh;
+}
+
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
 }
