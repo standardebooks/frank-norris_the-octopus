@@ -31,6 +31,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Octopus</dc:title>
 		<meta property="file-as" refines="#title">Octopus, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Story of California</dc:title>
+		<meta property="file-as" refines="#subtitle">Story of California, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Octopus: A Story of California</dc:title>
+		<meta property="file-as" refines="#fulltitle">Octopus, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Didactic fiction</dc:subject>
 		<dc:subject id="subject-2">Farm life -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Mussel Slough Tragedy, 1880 -- Fiction</dc:subject>
@@ -55,46 +62,56 @@
 		<meta property="term" refines="#subject-7">sh2008100053</meta>
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh85110894</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<dc:description id="description">Wheat growers in nineteenth-century California resist when the railroad company attempts to take possession of their farms.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;At the end of the nineteenth-century, a group of wheat growers in the San Joaquin Valley in California fights back when the railroad monopoly attempts to take possession of their farms. United in the local farmer’s League, the farmers try to retain the land that they have been improving for years, while the railroad company threatens them with increased shipping rates and eviction from their homes. When political opposition, court cases, and bribery have failed, the conflict comes to an explosive conclusion.&lt;/p&gt;
+			&lt;p&gt;Published in 1901, &lt;i&gt;The Octopus&lt;/i&gt; is the first part of &lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris’s&lt;/a&gt; intended trilogy “The Epic of the Wheat,” on the production, distribution, and consumption of wheat. &lt;i&gt;The Octopus&lt;/i&gt; was inspired by the Mussel Slough Tragedy of 1880, a bloody incident in the conflict between farmers and the Southern Pacific Railroad involving disagreements on land ownership. The book, portraying the evil power and greed of the railroad monopolies, reflects the anti-railroad sentiments of the time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/268</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/bwb_Y0-BUM-500/</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Octopus:_A_Story_of_California</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frank-norris_the-octopus</meta>
+		<meta id="collection" property="belongs-to-collection">The Epic of the Wheat</meta>
+		<meta property="collection-type" refines="#collection">set</meta>
+		<meta property="group-position" refines="#collection">1</meta>
 		<dc:creator id="author">Frank Norris</dc:creator>
 		<meta property="file-as" refines="#author">Norris, Frank</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">Benjamin Franklin Norris Jr.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Frank_Norris</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80032817</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
+		<dc:contributor id="illustrator">Leonard L. Poates</dc:contributor>
+		<meta property="file-as" refines="#illustrator">Poates, Leonard L.</meta>
+		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/no2011134318</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
+		<meta property="display-seq" refines="#illustrator">0</meta>
+		<dc:contributor id="artist">George Inness</dc:contributor>
+		<meta property="file-as" refines="#artist">Inness, George</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/George_Inness</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79007221</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">John Hamm</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Hamm, John</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Gijs van Tulder</dc:contributor>
+		<meta property="file-as" refines="#producer-1">van Tulder, Gijs</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.vantulder.net/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
