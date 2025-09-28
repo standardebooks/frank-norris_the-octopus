@@ -22,7 +22,6 @@ footer{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:sender"],
 [epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
@@ -31,6 +30,10 @@ footer{
 
 section[epub|type~="preface"]{
 	margin-top: 20vh;
+}
+
+#chapter-2-9 b{
+	text-transform: uppercase;
 }
 
 [epub|type~="z3998:dramatis-personae"]{
