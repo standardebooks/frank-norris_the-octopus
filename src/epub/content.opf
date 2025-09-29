@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/frank-norris/the-octopus</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-09-29T17:03:48Z</dc:date>
+		<meta property="dcterms:modified">2025-09-29T17:03:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -62,21 +62,21 @@
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh85110894</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">Wheat growers in nineteenth-century California resist when the railroad company attempts to take possession of their farms.</dc:description>
+		<meta id="collection" property="belongs-to-collection">The Epic of the Wheat</meta>
+		<meta property="collection-type" refines="#collection">set</meta>
+		<meta property="group-position" refines="#collection">1</meta>
+		<dc:description id="description">Wheat growers in nineteenth-century California resist when a railroad company attempts to take possession of their farms.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;At the end of the nineteenth-century, a group of wheat growers in the San Joaquin Valley in California fights back when the railroad monopoly attempts to take possession of their farms. United in the local farmer’s League, the farmers try to retain the land that they have been improving for years, while the railroad company threatens them with increased shipping rates and eviction from their homes. When political opposition, court cases, and bribery have failed, the conflict comes to an explosive conclusion.&lt;/p&gt;
-			&lt;p&gt;Published in 1901, &lt;i&gt;The Octopus&lt;/i&gt; is the first part of &lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris’s&lt;/a&gt; intended trilogy “The Epic of the Wheat,” on the production, distribution, and consumption of wheat. &lt;i&gt;The Octopus&lt;/i&gt; was inspired by the Mussel Slough Tragedy of 1880, a bloody incident in the conflict between farmers and the Southern Pacific Railroad involving disagreements on land ownership. The book, portraying the evil power and greed of the railroad monopolies, reflects the anti-railroad sentiments of the time.&lt;/p&gt;
+			&lt;p&gt;At the end of the nineteenth-century, a group of wheat growers in California’s San Joaquin Valley fights back when the railroad monopoly attempts to take possession of their farms. United in the local Farmer’s League, they try to retain the land that they’ve been improving for years, while the railroad company threatens them with increased shipping rates and eviction from their homes. When political opposition, court cases, and bribery all fail, the conflict comes to an explosive conclusion.&lt;/p&gt;
+			&lt;p&gt;Published in 1901, &lt;i&gt;The Octopus&lt;/i&gt; is the first part of &lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris’s&lt;/a&gt; unfinished trilogy &lt;a href="https://standardebooks.org/collections/the-epic-of-wheat"&gt;The Epic of the Wheat&lt;/a&gt;, on the production, distribution, and consumption of wheat. The Mussel Slough Tragedy of 1880, a bloody incident in the conflict between farmers and the Southern Pacific Railroad involving disagreements on land ownership, inspired the novel, in which the portrayal of the railroad monopolies as powerful, evil, and greedy reflects the anti-railroad sentiments of the time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/268</dc:source>
 		<dc:source>https://archive.org/details/bwb_Y0-BUM-500/</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">199916</meta>
+		<meta property="se:reading-ease.flesch">72.56</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Octopus:_A_Story_of_California</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frank-norris_the-octopus</meta>
-		<meta id="collection" property="belongs-to-collection">The Epic of the Wheat</meta>
-		<meta property="collection-type" refines="#collection">set</meta>
-		<meta property="group-position" refines="#collection">1</meta>
 		<dc:creator id="author">Frank Norris</dc:creator>
 		<meta property="file-as" refines="#author">Norris, Frank</meta>
 		<meta property="se:name.person.full-name" refines="#author">Benjamin Franklin Norris Jr.</meta>
@@ -111,6 +111,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
