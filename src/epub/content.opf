@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/frank-norris/the-octopus</dc:identifier>
 		<dc:date>2025-09-29T17:03:48Z</dc:date>
@@ -66,11 +66,11 @@
 		<meta id="collection" property="belongs-to-collection">The Epic of the Wheat</meta>
 		<meta property="collection-type" refines="#collection">set</meta>
 		<meta property="group-position" refines="#collection">1</meta>
-		<dc:description id="description">Wheat growers in nineteenth-century California resist when a railroad company attempts to take possession of their farms.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Wheat growers in nineteenth-century California resist when a railroad company attempts to take possession of their farms.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;At the end of the nineteenth-century, a group of wheat growers in California’s San Joaquin Valley fights back when the railroad monopoly attempts to take possession of their farms. United in the local Farmer’s League, they try to retain the land that they’ve been improving for years, while the railroad company threatens them with increased shipping rates and eviction from their homes. When political opposition, court cases, and bribery all fail, the conflict comes to an explosive conclusion.&lt;/p&gt;
 			&lt;p&gt;Published in 1901, &lt;i&gt;The Octopus&lt;/i&gt; is the first part of &lt;a href="https://standardebooks.org/ebooks/frank-norris"&gt;Frank Norris’s&lt;/a&gt; unfinished trilogy &lt;a href="https://standardebooks.org/collections/the-epic-of-the-wheat"&gt;The Epic of the Wheat&lt;/a&gt;, on the production, distribution, and consumption of wheat. The Mussel Slough Tragedy of 1880, a bloody incident in the conflict between farmers and the Southern Pacific Railroad involving disagreements on land ownership, inspired the novel, in which the portrayal of the railroad monopolies as powerful, evil, and greedy reflects the anti-railroad sentiments of the time.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/268</dc:source>
 		<dc:source>https://archive.org/details/bwb_Y0-BUM-500</dc:source>
