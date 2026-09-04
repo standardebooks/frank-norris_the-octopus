@@ -39,12 +39,12 @@
 		<meta property="file-as" refines="#fulltitle">Octopus, The</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Didactic fiction</dc:subject>
-		<dc:subject id="subject-2">Farm life -- Fiction</dc:subject>
-		<dc:subject id="subject-3">Mussel Slough Tragedy, 1880 -- Fiction</dc:subject>
-		<dc:subject id="subject-4">Wheat farmers -- Fiction</dc:subject>
-		<dc:subject id="subject-5">Farmers -- Fiction</dc:subject>
-		<dc:subject id="subject-6">San Joaquin Valley (Calif.) -- Fiction</dc:subject>
-		<dc:subject id="subject-7">California -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Farm life--Fiction</dc:subject>
+		<dc:subject id="subject-3">Mussel Slough Tragedy, 1880--Fiction</dc:subject>
+		<dc:subject id="subject-4">Wheat farmers--Fiction</dc:subject>
+		<dc:subject id="subject-5">Farmers--Fiction</dc:subject>
+		<dc:subject id="subject-6">San Joaquin Valley (Calif.)--Fiction</dc:subject>
+		<dc:subject id="subject-7">California--Fiction</dc:subject>
 		<dc:subject id="subject-8">Railroad stories</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85037714</meta>
